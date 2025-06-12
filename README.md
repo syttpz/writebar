@@ -13,4 +13,4 @@ This Firefox extension displays a floating word count progress bar while you're 
 ---
 
 ## Installation
-Download the extension from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/writebar) 
+Download the extension from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/write-bar/) 
