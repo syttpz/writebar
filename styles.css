@@ -1,0 +1,47 @@
+#word-progress {
+    position: fixed;
+    bottom: 14px;
+    left: 14px;
+    width: 280px;
+    background-color: white;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+    padding: 14px 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 15px;
+    z-index: 99999;
+    transition: all 0.3s ease;
+  }
+  
+  #label {
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  #status {
+    font-size: 13px;
+    color: #555;
+    opacity: 0.7;
+    font-weight: 400;
+  }
+  
+  #bar {
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #bar-fill {
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease;
+    border-radius: 5px;
+    background-color: red;  
+  }
+  
+  

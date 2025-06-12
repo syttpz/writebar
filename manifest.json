@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Write Bar",
+  "version": "1.1",
+  "description": "Track your word count in Google Docs with a progress bar.",
+  "icons": {
+    "48": "icons/icon.png",
+    "96": "icons/icon96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/document/d/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": [],
+  "host_permissions": ["https://docs.google.com/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "writebar@syttpz.dev",
+      "strict_min_version": "91.0"
+    }
+  }
+}
+  
